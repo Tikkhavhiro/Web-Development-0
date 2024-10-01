@@ -10,12 +10,17 @@ body {
     flex: 1;
   }
 
-  h1 {
-    font-size: 5rem;
-  }
+
+}
+
+span {
+  color: midnightblue;
 }
 
 @media (min-width: 721px) {
+  h1 {
+    font-size: 5rem;
+  }
   .tile-image {
     margin-right: 50px;
     float: left;
@@ -36,10 +41,6 @@ body {
     display: inline-block;
   }
 
-  span {
-    color: midnightblue;
-  }
-
   footer {
     clear: right;
     text-align: right;
@@ -49,7 +50,9 @@ body {
 
 @media (max-width: 720px) {
   h1 {
-    font-size: 2rem;
+    display: block;
+    font-size: 3.5rem;
+    text-align: center;
   }
 
   .tile-image {
